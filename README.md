@@ -146,7 +146,6 @@ Two APIs use caching so they respond faster:
 - `/api/universities/popular` — cached for 5 minutes
 - `/api/universities` — cached for 2 minutes (simple queries only)
 
-```
 
 ---
 
