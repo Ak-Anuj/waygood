@@ -166,3 +166,8 @@ Make sure server is running first, then open a new terminal:
 cd backend
 npm test
 ```
+
+Assumptions:
+
+A student cannot apply to the same program twice for the same intake
+Students can only view their own applications
