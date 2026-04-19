@@ -167,7 +167,7 @@ cd backend
 npm test
 ```
 
-Assumptions:
+##Assumptions:
 
--A student cannot apply to the same program twice for the same intake
--Students can only view their own applications
+- A student cannot apply to the same program twice for the same intake
+- Students can only view their own applications
