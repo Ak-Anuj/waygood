@@ -1,7 +1,5 @@
 # Waygood Backend Assignment
 
-This is the backend for a study abroad platform. Students can find universities, apply to programs, and get recommendations based on their profile.
-
 ---
 
 ## What I Built
