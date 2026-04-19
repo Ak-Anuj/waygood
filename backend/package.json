@@ -1,0 +1,28 @@
+{
+  "name": "waygood-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend starter for the Waygood candidate evaluation project.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/scripts/seed.js",
+    "test:auth": "node tests/auth.test.js",
+    "test:app": "node tests/application.test.js",
+    "test:discovery": "node tests/universities.test.js",
+    "test": "node tests/auth.test.js && node tests/application.test.js && node tests/universities.test.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
